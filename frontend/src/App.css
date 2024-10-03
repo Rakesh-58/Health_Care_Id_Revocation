@@ -1,0 +1,82 @@
+/* App.css */
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f0f4c3, #a5d6a7);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  color: #2e7d32;
+  transition: background-color 0.3s ease;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #4caf50; /* Primary color */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px;
+  border-bottom: 5px solid #388e3c; /* Darker green border */
+  transition: border-color 0.3s ease;
+}
+
+.App-header:hover {
+  border-color: #2e7d32; /* Change border color on hover */
+}
+
+nav {
+  margin: 20px 0;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Spacing between buttons */
+  margin: 20px 0;
+}
+
+.nav-button {
+  padding: 15px 30px; /* Increased padding for a larger button */
+  background-color: #61dafb;
+  color: white;
+  border: 2px solid #61dafb; /* Rectangle border with the same color as background */
+  border-radius: 0; /* No rounded corners for a rectangular shape */
+  font-size: 18px; /* Increased font size */
+  font-weight: bold; /* Make the text bold */
+  cursor: pointer;
+  text-decoration: none; /* Remove underline */
+  transition: background-color 0.3s, transform 0.2s, border-color 0.3s; /* Add border color transition */
+}
+
+.nav-button:hover {
+  background-color: #21a1f1; /* Darker shade on hover */
+  transform: scale(1.05); /* Slightly increase size on hover */
+  border-color: #21a1f1; /* Change border color on hover */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
