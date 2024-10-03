@@ -5,7 +5,7 @@ The project utilizes React.js for the frontend, providing an intuitive user inte
 A critical feature of the system is the ability to revoke healthcare identities when necessary, ensuring that compromised or invalid identities are promptly removed. The system maintains a revocation list, recording the reasons for revocation, thus creating an audit trail for future reference and compliance with healthcare regulations. This enhances the system’s role in maintaining data privacy and security, aligning it with legal standards. The system underwent extensive testing, primarily using Postman for API validation. 
 In conclusion, the Healthcare Identity Revocation System offers a secure and effective framework for managing healthcare identities. With robust cryptographic techniques and well-structured data handling, it provides healthcare organizations with a scalable solution to protect sensitive information and ensure compliance with data security standards.
 
-**How to run application**
+# How to run application
 
 **Run Back end**
 
@@ -18,7 +18,7 @@ In conclusion, the Healthcare Identity Revocation System offers a secure and eff
 1. Install the required modules
 2. Run "npm start"
 
-**Screenshots**
+# Screenshots
 
 ![alt text](image-1.png)
 
@@ -28,3 +28,24 @@ In conclusion, the Healthcare Identity Revocation System offers a secure and eff
 
 ![alt text](image-4.png)
 
+# Team Contributions
+
+**Sureya Narayanan K (21z261) - Front End Development**
+ - Implemented Registration.js
+ - Integration of all the components of front end
+
+**Aswin Sailesh V S (21z265) - Front End Development**
+ - Implemented RevokeID.js
+ - Implemented IdentityVerification.js
+
+**Prithivi Raaj K (21z238) - Back End Development**
+ - Implemented the backend portion of the project
+ - Connection with MySQL and handling the database
+
+**Rakesh Kumar S (21z241) - Back End Development**
+ - Implemented the cryptographic algorithms in backend 
+ - Documentation of the Project
+
+**Sushanth S (21z262) - Testing and Documentation**
+ - Testing the API using Postman
+ - Documentation of the Project
