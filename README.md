@@ -5,6 +5,11 @@ The project utilizes React.js for the frontend, providing an intuitive user inte
 A critical feature of the system is the ability to revoke healthcare identities when necessary, ensuring that compromised or invalid identities are promptly removed. The system maintains a revocation list, recording the reasons for revocation, thus creating an audit trail for future reference and compliance with healthcare regulations. This enhances the system’s role in maintaining data privacy and security, aligning it with legal standards. The system underwent extensive testing, primarily using Postman for API validation. 
 In conclusion, the Healthcare Identity Revocation System offers a secure and effective framework for managing healthcare identities. With robust cryptographic techniques and well-structured data handling, it provides healthcare organizations with a scalable solution to protect sensitive information and ensure compliance with data security standards.
 
+# System Architecture
+
+![image](https://github.com/user-attachments/assets/5a1b8446-217b-4343-9c74-8d94155ae7ab)
+
+
 # How to run application
 
 **Run Back end**
