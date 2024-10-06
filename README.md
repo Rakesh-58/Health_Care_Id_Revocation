@@ -33,7 +33,7 @@ In conclusion, the Healthcare Identity Revocation System offers a secure and eff
 
 ![alt text](image-4.png)
 
-![image](https://github.com/user-attachments/assets/cbb333bf-ca14-430f-876e-21c399ce26db)
+![image](https://github.com/user-attachments/assets/77a1bfd1-3f6a-4011-80ec-177075cb0244)
 
 ![image](https://github.com/user-attachments/assets/06ae3ab9-337c-4e28-ace2-09929e9d8a68)
 
