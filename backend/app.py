@@ -3,6 +3,8 @@ from utils import hash_password, verify_password
 import mysql.connector
 from datetime import datetime
 from flask_cors import CORS
+import time
+
 
 app = Flask(__name__)
 CORS(app, resources={r"/register": {"origins": "http://localhost:3000"},
@@ -23,7 +25,11 @@ cursor = db.cursor()
 def register():
     data = request.json
     username = data['username']
+    start_time = time.time()
     password = hash_password(data['password'])
+    end_time = time.time()
+    time_taken = end_time - start_time
+    print(f"Time taken to hash the password: {time_taken:.6f} seconds")
     public_key = data['public_key']
     
     query = "INSERT INTO users (username, password_hash, public_key, is_revoked) VALUES (%s, %s, %s, %s)"
